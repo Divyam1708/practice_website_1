@@ -27,6 +27,9 @@ body
 
 a{
     text-decoration: none;
+    border: none;
+    margin: 0px;
+    /* font-size: inherit; */
 }
 
 .main_container
@@ -855,7 +858,8 @@ footer
     /* display: flex;
     flex-direction: column;
     justify-content: start; */
-    height: 15em;
+    top: -5em;
+    height: 13em;
     width: 4em;
 }
 .footer_website_logo
