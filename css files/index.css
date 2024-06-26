@@ -25,6 +25,9 @@ body
     right: 0px
 }
 
+a{
+    text-decoration: none;
+}
 
 .main_container
 {
@@ -112,7 +115,7 @@ nav{
 {
     background-color: rgb(0, 0, 0);
     /* max-width: 40em; */
-    width: 40em;
+    /* width: 40em; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,6 +148,7 @@ nav{
 {
     display: none;
     color: orange;
+    transition: ease-in-out 0.6s;
 }
 
 .nav_submenu ul{
@@ -157,6 +161,7 @@ nav{
     display: flex;
     flex-direction: column;
     padding: 5px;
+    
 }
 
 .nav_li_div:hover .nav_submenu
@@ -167,6 +172,7 @@ nav{
     top: 38px;
     border: 1px solid grey;
     border-radius: 5%;
+    transition: ease-in-out 0.6s;
 
 }
 .nav_searchbar
@@ -812,7 +818,7 @@ footer
     position: absolute;
     top: 240em;
     width: 100%;
-    height: 20em;
+    height: 15em;
     background-color: rgb(0, 0, 0);
 }
 
@@ -820,17 +826,36 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(255, 131, 131);
+    background-color: rgb(0, 0, 0);
+}
+.foot a{
+    text-decoration: none;
 }
 
+.foot span{
+    
+    color: white;
+}
+.foot li{
+    list-style: none;
+    line-height:1em;
+    margin-block: 0.5em;
+    color: white;
+}
+
+.foot h3{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: wheat;
+}
 /* 1st Element */
 .footer_website_logo_out
 {
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     /* display: flex;
     flex-direction: column;
     justify-content: start; */
-    height: 20em;
+    height: 15em;
     width: 4em;
 }
 .footer_website_logo
@@ -838,24 +863,38 @@ footer
     background-color: rgb(0, 0, 0);
     width:9em;
     height: 3.125em;
+    margin-top: 2em;
 }
 
 .footer_list_main_div_1
 {
-    background-color: green;
-    width:10em;
-    height: 20em;
+    background-color: rgb(0, 0, 0);
+    width: 15em;
+    height: 15em;
 }
 
 .footer_list_main_div_2{
-    background-color: blue;
-    width:10em;
-    height: 20em;
+    background-color: rgb(0, 0, 0);
+    width:15em;
+    height: 15em;
 }
 
 .footer_list_main_div_3{
-    background-color: yellow;
-    width:10em;
-    height: 20em;
+    background-color: rgb(0, 0, 0);
+    width:15em;
+    height: 15em;
 
+}
+
+.footer_about_us_location
+{
+    width: 2em;
+}
+.footer_social_media{
+    margin-top: 1em;
+}
+.footer_about_us_social_media
+{
+    margin-right: 1.3em;
+    width: 2em;
 }
