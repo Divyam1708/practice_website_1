@@ -1,0 +1,40 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+} */
+.chatbox_and_chatnavigation_container
+{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    max-width: 36em;
+    min-width: 30em;
+    min-height: 60em;
+    max-height: 170em;
+    top: 1.5em;
+    border: 4px solid black;
+}
+
+.chat_navigation_container
+{
+    width:20%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.chat_box_container
+{
+
+}
+.spacer
+{
+    width:100%;
+    height: 80px;
+    background-color: red;
+}
+
